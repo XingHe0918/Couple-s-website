@@ -61,7 +61,8 @@ const talkToXiaoxi = () => {
   text-align: center;
   font-family: "Arial", sans-serif;
   background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   color: white;
   display: flex;
   flex-direction: column;
@@ -74,7 +75,7 @@ const talkToXiaoxi = () => {
   top: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(3px);
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
@@ -149,9 +150,22 @@ const talkToXiaoxi = () => {
 
 /* 底部 */
 footer {
-  position: absolute;
-  bottom: 10px;
+  //position: absolute;
+  //bottom: 10px;
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 600px) {
+  .nav-item {
+    font-size: 14px; /* 小屏幕字体大小 */
+  }
+}
+
+/* 当宽度小于400px时，进一步缩小字体大小 */
+@media (max-width: 400px) {
+  .nav-item {
+    font-size: 12px; /* 更小屏幕字体大小 */
+  }
 }
 </style>
