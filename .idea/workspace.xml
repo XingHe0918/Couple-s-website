@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02bbac77-73f2-4759-93e9-db0e4e77784b" name="Changes" comment="1">
+    <list default="true" id="02bbac77-73f2-4759-93e9-db0e4e77784b" name="Changes" comment="首页移动端导航栏字体自适应设置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/home.vue" afterDir="false" />
     </list>
@@ -94,7 +94,7 @@
       <workItem from="1733231470025" duration="1282000" />
       <workItem from="1733408542284" duration="129000" />
       <workItem from="1741783855770" duration="5776000" />
-      <workItem from="1741793022183" duration="276000" />
+      <workItem from="1741793022183" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -144,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741789443532</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="首页移动端导航栏字体自适应设置">
+      <option name="closed" value="true" />
+      <created>1741793380723</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741793380723</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="首页移动端导航栏字体自适应设置" />
+    <option name="LAST_COMMIT_MESSAGE" value="首页移动端导航栏字体自适应设置" />
   </component>
 </project>

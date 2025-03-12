@@ -28,6 +28,7 @@
       <p>© 2024 XXL & ZX ❤️ 记录我们的点滴时光</p>
     </footer>
   </div>
+
 </template>
 
 <script setup>
@@ -67,6 +68,7 @@ const talkToXiaoxi = () => {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 10px; /* 设置圆角 */
 }
 
 /* 顶部导航 */
